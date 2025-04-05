@@ -61,8 +61,8 @@ res.status(201).json({
   token,
   user: {
     id: user._id,
-    email: user.email,
     username: user.username,
+    email: user.email,
     profileImage: user.profileImage,
   },
 });
